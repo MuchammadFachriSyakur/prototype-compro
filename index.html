@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV SEKAWAN CIPTA DINAR | Ekspor Rempah Indonesia</title>
+    <title>Rempah Nusantara | Ekspor Rempah Indonesia</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap"
       rel="stylesheet"
@@ -24,456 +24,154 @@
         <span></span><span></span><span></span>
       </div>
       <div class="menu" id="menu">
-        <a href="#about">Tentang</a>
-        <a href="#produk">Produk</a>
-        <a href="#proses">Proses & Kualitas</a>
-        <a href="#order">Pemesanan</a>
-        <a href="#faq">Tanya Jawab</a>
-        <a href="#kontak">Kontak</a>
-        <a href="index-en.html" class="lang-switch">
+        <a href="#about" data-i18n="nav.tentang"></a>
+        <a href="#produk" data-i18n="nav.produk"></a>
+        <a href="#proses" data-i18n="nav.proses"></a>
+        <a href="#order" data-i18n="nav.order"></a>
+        <a href="#faq" data-i18n="nav.faq"></a>
+        <a href="#kontak" data-i18n="nav.kontak"></a>
+        <button id="langSwitcher">
           <img
             src="https://flagcdn.com/w20/gb.png"
             width="20"
             height="14"
-            alt="English"
+            alt="Lang"
           />
-          EN
-        </a>
+        </button>
       </div>
     </nav>
 
     <!-- HERO -->
     <header>
       <div class="content">
-        <h1>Rempah Indonesia Untuk Dunia</h1>
-        <p>
-          Ekspor rempah alami berkualitas tinggi dari Nusantara ke pasar global.
-          Langsung dari petani Indonesia, dengan standar ekspor internasional.
-        </p>
+        <h1 data-i18n="hero.title"></h1>
+        <p data-i18n="hero.desc"></p>
         <div class="cta-wrap">
-          <a href="#order" class="btn btn-primary">Minta Penawaran</a>
-          <a href="#produk" class="btn btn-outline">Lihat Produk</a>
+          <a href="#order" class="btn btn-primary" data-i18n="hero.cta1"></a>
+          <a href="#produk" class="btn btn-outline" data-i18n="hero.cta2"></a>
         </div>
       </div>
     </header>
 
     <!-- ABOUT -->
     <section id="about">
-      <h2>Tentang Kami</h2>
-      <p class="subtitle">
-        Kami adalah eksportir terpercaya yang berfokus pada rimpang dan rempah
-        Indonesia (Jahe, Kunyit, Lengkuas, Cengkeh, Kapulaga, Kemiri) dengan
-        standar mutu ketat, transparansi supply-chain, dan fleksibilitas
-        pemenuhan kebutuhan buyer di berbagai negara.
-      </p>
-
+      <h2 data-i18n="about.title"></h2>
+      <p class="subtitle" data-i18n="about.desc"></p>
       <div class="stats">
         <div class="stat">
           <div class="num" data-counter="12">0</div>
-          <div class="lbl">Tahun Berpengalaman</div>
+          <div class="lbl" data-i18n="about.years"></div>
         </div>
         <div class="stat">
           <div class="num" data-counter="17">0</div>
-          <div class="lbl">Negara Tujuan</div>
+          <div class="lbl" data-i18n="about.countries"></div>
         </div>
         <div class="stat">
           <div class="num" data-counter="1200">0</div>
-          <div class="lbl">Ton Ekspor / Tahun</div>
+          <div class="lbl" data-i18n="about.tons"></div>
         </div>
         <div class="stat">
           <div class="num" data-counter="35">0</div>
-          <div class="lbl">Mitra Petani</div>
+          <div class="lbl" data-i18n="about.farmers"></div>
         </div>
       </div>
-
       <div class="grid-2" style="margin-top: 32px">
         <div class="card">
-          <h3>Visi</h3>
-          <p>
-            Menjadi mitra ekspor rempah Nusantara yang paling dipercaya dan
-            berkelanjutan di pasar global.
-          </p>
+          <h3 data-i18n="about.visi"></h3>
+          <p data-i18n="about.visi_desc"></p>
         </div>
         <div class="card">
-          <h3>Misi</h3>
-          <ul style="padding-left: 18px">
-            <li>Mengoptimalkan kualitas melalui kontrol mutu berlapis</li>
-            <li>Mengutamakan transparansi harga & traceability produk</li>
-            <li>Memberdayakan petani lokal dengan pembinaan berkelanjutan</li>
-            <li>Melayani buyer dengan respon cepat & fleksibel</li>
-          </ul>
+          <h3 data-i18n="about.misi"></h3>
+          <ul id="misiList"></ul>
         </div>
       </div>
-
-      <h3 style="margin-top: 36px; color: #222">Kenapa Memilih Kami?</h3>
-      <div class="why">
-        <div class="why-item">
-          <h4>Kualitas Utama</h4>
-          <p>
-            Standar kadar air, warna, dan kebersihan yang konsisten di setiap
-            batch.
-          </p>
-        </div>
-        <div class="why-item">
-          <h4>Kemasan Fleksibel</h4>
-          <p>
-            Vacuum, aluminium foil, kantong kraft, kantong PP – sesuai kebutuhan
-            pembeli.
-          </p>
-        </div>
-        <div class="why-item">
-          <h4>Respon Cepat</h4>
-          <p>
-            Waktu proses dan pengiriman cepat, dilengkapi laporan QC lengkap.
-          </p>
-        </div>
-        <div class="why-item">
-          <h4>Patuh Regulasi Global</h4>
-          <p>Dokumen ekspor lengkap (COA, MSDS, Fitosanitari, HS Code, dll).</p>
-        </div>
-      </div>
+      <h3
+        style="margin-top: 36px; color: #222"
+        data-i18n="about.why_title"
+      ></h3>
+      <div class="why" id="whyWrap"></div>
     </section>
 
     <!-- PRODUCTS -->
     <section id="produk">
-      <h2>Produk Kami</h2>
-      <p class="subtitle">
-        Semua produk tersedia dalam bentuk segar / kering / bubuk (custom),
-        dengan opsi kemasan dan spesifikasi sesuai kebutuhan industri Anda.
-      </p>
-      <div class="product-grid">
-        <div class="product-item">
-          <img
-            src="https://www.masjidalakbar.or.id/wp-content/uploads/2024/09/lengkuas.jpg"
-            alt="Lengkuas"
-          />
-          <div class="info">
-            <h3>Lengkuas</h3>
-            <p>
-              Segar & kering, kandungan minyak atsiri tinggi, cocok untuk
-              makanan & herbal.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeZkTsqZSHTeWKKaAK6m_FPZbVEATCWndAQ&s"
-            alt="Jahe"
-          />
-          <div class="info">
-            <h3>Jahe (Merah & Gajah)</h3>
-            <p>
-              Segar, iris kering, bubuk. Kadar air terkontrol, warna seragam,
-              aroma kuat.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://www.masjidalakbar.or.id/wp-content/uploads/2024/09/kunyit.jpg"
-            alt="Kunyit"
-          />
-          <div class="info">
-            <h3>Kunyit</h3>
-            <p>
-              Farmasi, makanan, kosmetik. Kuning pekat, kurkumin sesuai standar
-              buyer.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://i0.wp.com/ciputrahospital.com/wp-content/uploads/2024/11/top-view-dried-cloves-with-wooden-spoon-1.jpg?resize=1024%2C683&ssl=1"
-            alt="Cengkeh"
-          />
-          <div class="info">
-            <h3>Cengkeh</h3>
-            <p>
-              Kadar minyak >15% (opsional), ukuran seragam, kering & bersih.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://indomgb.s3.amazonaws.com/wp-content/uploads/2025/05/21232031/kapulaga-jawa-768x512.jpeg"
-            alt="Kapulaga"
-          />
-          <div class="info">
-            <h3>Kapulaga</h3>
-            <p>
-              Hijau & Putih, aroma tajam, kadar kotoran rendah, siap ekspor.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1671590469/attached_image/kemiri-ketahui-kandungan-dan-manfaatnya-untuk-kesehatan.jpg"
-            alt="Kemiri Kupas"
-          />
-          <div class="info">
-            <h3>Kemiri Kupas</h3>
-            <p>
-              Utuh / pecah, food-grade, kadar minyak dan air sesuai spesifikasi.
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://kalesang.id/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-01-at-18.49.57.jpeg"
-          />
-          <div class="info">
-            <h3>Kopra</h3>
-            <p>
-              Kopra Kering Kualitas Ekspor. Diproses dari kelapa pilihan
-              Indonesia, menghasilkan kopra putih bersih dengan kadar air rendah
-            </p>
-          </div>
-        </div>
-        <div class="product-item">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVIb8FGNSy2IC8GRwV1wpE-M7LojuYveLPw&s"
-          />
-          <div class="info">
-            <h3>Brambang</h3>
-            <p>
-              Bawang Segar Premium Indonesia. Dipanen dari lahan subur, bawang
-              kami memiliki aroma kuat dan rasa khas
-            </p>
-          </div>
-        </div>
-      </div>
+      <h2 data-i18n="produk.title"></h2>
+      <p class="subtitle" data-i18n="produk.desc"></p>
+      <div class="product-grid" id="productGrid"></div>
     </section>
 
-    <!-- PROCESS & QUALITY -->
+    <!-- PROCESS -->
     <section id="proses">
-      <h2>Proses & Kualitas</h2>
-      <p class="subtitle">
-        Kami menerapkan 4 lapis kontrol kualitas dari hulu ke hilir dengan
-        laporan transparan untuk setiap batch.
-      </p>
+      <h2 data-i18n="proses.title"></h2>
+      <p class="subtitle" data-i18n="proses.desc"></p>
+      <div class="timeline" id="timeline"></div>
+      <div class="steps" id="prosesSteps"></div>
 
-      <div class="timeline">
-        <div class="step" data-step="1">
-          <h4>Pengadaan & Pra-Sortir</h4>
-          <p>
-            Dipanen langsung dari petani mitra bersertifikasi, kemudian
-            dilakukan pra-sortir di lapangan.
-          </p>
-        </div>
-        <div class="step" data-step="2">
-          <h4>Pembersihan & Pengeringan</h4>
-          <p>
-            Pembersihan dengan teknologi modern dan pengeringan sesuai standar
-            kadar air yang disepakati.
-          </p>
-        </div>
-        <div class="step" data-step="3">
-          <h4>Uji Lab & Laporan QC</h4>
-          <p>
-            Pengujian kadar air, warna, aroma, dan kandungan minyak atsiri (jika
-            diperlukan COA).
-          </p>
-        </div>
-        <div class="step" data-step="4">
-          <h4>Pengemasan & Dokumen Ekspor</h4>
-          <p>
-            Pengemasan vacuum atau curah, dilengkapi dengan dokumen ekspor
-            seperti Fitosanitari, HS Code, COA, dan lainnya.
-          </p>
-        </div>
-      </div>
-
-      <h3 style="margin-top: 28px; color: #222">Standar Mutu (Target)</h3>
-      <div class="progress-wrap">
-        <div class="progress">
-          <div class="progress-title">
-            <span>Kadar Air (Moisture)</span
-            ><span><b data-target="12">0</b>%</span>
-          </div>
-          <div class="bar"><span data-bar="12"></span></div>
-        </div>
-        <div class="progress">
-          <div class="progress-title">
-            <span>Kebersihan (Cleanliness)</span
-            ><span><b data-target="98">0</b>%</span>
-          </div>
-          <div class="bar"><span data-bar="98"></span></div>
-        </div>
-        <div class="progress">
-          <div class="progress-title">
-            <span>Oil Content (Cengkeh)</span
-            ><span><b data-target="15">0</b>%+</span>
-          </div>
-          <div class="bar"><span data-bar="75"></span></div>
-        </div>
-        <div class="progress">
-          <div class="progress-title">
-            <span>Broken Ratio (Kemiri Kupas)</span
-            ><span><b data-target="5">0</b>%</span>
-          </div>
-          <div class="bar"><span data-bar="95"></span></div>
-        </div>
-      </div>
+      <h3 id="mutuTitle"></h3>
+      <div id="mutuContent" class="progress-wrap"></div>
     </section>
 
-    <!-- ORDER FORM -->
+    <!-- ORDER -->
     <section id="order">
-      <h2>Pemesanan Ekspor</h2>
-      <p class="subtitle">
-        Isi form berikut untuk mendapatkan **quotation (proforma invoice)** dari
-        kami. Tim kami akan menghubungi Anda dalam &lt;24 jam kerja.
-      </p>
-
-      <form class="form" id="orderForm">
-        <input
-          type="text"
-          name="company"
-          placeholder="Nama Perusahaan *"
-          required
-        />
-        <input
-          type="text"
-          name="person"
-          placeholder="Contact Person *"
-          required
-        />
-        <input type="email" name="email" placeholder="Email *" required />
-        <input
-          type="tel"
-          name="phone"
-          placeholder="WhatsApp / Phone *"
-          required
-        />
-        <input
-          type="text"
-          name="country"
-          placeholder="Negara Tujuan *"
-          required
-        />
-        <input
-          type="text"
-          name="port"
-          placeholder="Pelabuhan Tujuan (Port of Destination)"
-        />
-        <select name="incoterm" required>
-          <option value="">Pilih Incoterm *</option>
-          <option>EXW</option>
-          <option>FOB</option>
-          <option>CIF</option>
-          <option>CFR</option>
-        </select>
-        <select name="product" required>
-          <option value="">Pilih Produk *</option>
-          <option>Lengkuas</option>
-          <option>Jahe (Merah / Gajah)</option>
-          <option>Kunyit</option>
-          <option>Cengkeh</option>
-          <option>Kapulaga</option>
-          <option>Kemiri Kupas</option>
-        </select>
-        <input
-          type="text"
-          name="qty"
-          placeholder="Kuantitas (Kg / Ton) *"
-          required
-        />
-        <select name="pack">
-          <option value="">Tipe Kemasan</option>
-          <option>Vacuum Pack</option>
-          <option>Aluminium Foil Bag</option>
-          <option>Kraft Bag</option>
-          <option>PP Bag</option>
-          <option>Custom</option>
-        </select>
-        <textarea
-          class="full"
-          name="message"
-          placeholder="Spesifikasi tambahan (misal moisture max %, oil content min %, mesh size bubuk, dsb)"
-        ></textarea>
-        <button type="submit">Kirim Permintaan Penawaran</button>
-        <span class="note full"
-          >* Dengan mengirim form ini, Anda menyetujui kami untuk menghubungi
-          via email/WhatsApp.</span
-        >
+      <h2 data-i18n="order.title"></h2>
+      <p class="subtitle" data-i18n="order.desc"></p>
+      <form class="form" id="contactForm">
+        <div class="mb-3">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            data-i18n="[placeholder]order.name"
+            required
+            class="w-full border p-2 rounded"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            data-i18n="[placeholder]order.email"
+            required
+            class="w-full border p-2 rounded"
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            data-i18n="[placeholder]order.message"
+            required
+            class="w-full border p-2 rounded"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary"
+          data-i18n="order.submit"
+        ></button>
       </form>
     </section>
 
     <!-- FAQ -->
     <section id="faq">
       <h2>FAQ</h2>
-      <div class="faq">
-        <div class="faq-item">
-          <button class="faq-q">Berapa MOQ (Minimum Order Quantity)?</button>
-          <div class="faq-a">
-            <p>
-              MOQ berbeda tiap produk, umumnya 1 ton per item. Namun kami
-              fleksibel untuk sample atau trial order.
-            </p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Apakah bisa minta COA / Phytosanitary?</button>
-          <div class="faq-a">
-            <p>
-              Bisa. Kami menyediakan COA (Certificate of Analysis) &
-              Phytosanitary sesuai kebutuhan buyer/negara tujuan.
-            </p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Metode pembayaran apa yang diterima?</button>
-          <div class="faq-a">
-            <p>
-              TT, LC, atau metode lain yang disepakati. Detail akan dibahas di
-              tahap negosiasi.
-            </p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Lead time produksi & pengiriman?</button>
-          <div class="faq-a">
-            <p>
-              Rata-rata 2–4 minggu tergantung volume, spesifikasi, dan dokumen
-              ekspor yang diminta.
-            </p>
-          </div>
-        </div>
-      </div>
+      <div class="faq" id="faqContent"></div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- KONTAK -->
     <section id="kontak">
-      <h2>Kontak Kami</h2>
-      <p><strong>CV SEKAWAN CIPTA DINAR</strong></p>
-      <p>
-        Jl. Raya Waru No.17, Kedungrejo, Kec. Waru, Kabupaten Sidoarjo, Jawa
-        Timur 61256
-      </p>
-      <p>
-        Email: <a href="mailto:info@rimpangnusantara.com">info@dummy.com</a>
-      </p>
-      <p><strong>Contact Person:</strong> Asih Prihastutik</p>
-      <p>
-        WhatsApp:
-        <a href="https://wa.me/6285230017377" target="_blank"
-          >+62 852-3001-7377</a
-        >
-        /
-        <a href="https://wa.me/6283136168789" target="_blank"
-          >+62 831-3616-8789</a
-        >
-      </p>
-      <p>Website: <a href="#">www.dummy.com</a></p>
+      <h2 data-i18n="kontak.title"></h2>
+      <div id="kontakContent"></div>
     </section>
 
     <footer>
       &copy; 2025 Rimpang Nusantara Indonesia. All rights reserved.
     </footer>
 
-    <div class="toast" id="toast">
-      Terima kasih! Permintaan Anda sudah kami terima.
-    </div>
+    <div class="toast" id="toast"></div>
 
-    <script src="script/script.js"></script>
+    <!-- Scripts -->
+    <script src="script/script.js" defer></script>
   </body>
 </html>
