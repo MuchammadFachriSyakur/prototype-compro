@@ -328,12 +328,28 @@ function renderKontak() {
   if (!container || !kontak) return;
 
   container.innerHTML = `
-    <div class="kontak-item"><b>Nama</b><p>${kontak.name}</p></div>
-    <div class="kontak-item"><b>Alamat</b><p>${kontak.address}</p></div>
-    <div class="kontak-item"><b>Email</b><p>${kontak.email}</p></div>
-    <div class="kontak-item"><b>${kontak.contact}</b></div>
-    <div class="kontak-item"><b>WhatsApp 1</b><p>${kontak.wa1}</p></div>
-    <div class="kontak-item"><b>WhatsApp 2</b><p>${kontak.wa2}</p></div>
-    <div class="kontak-item"><b>Website</b><p>${kontak.site}</p></div>
+    <div class="kontak-layout">
+  <div class="kontak-intro">
+    <h3>${kontak.name}</h3>
+    <p>${kontak.address}</p>
+    <p><a href="mailto:${kontak.email}">${kontak.email}</a></p>
+    <p>${kontak.contact}</p>
+  </div>
+  <div class="kontak-boxes">
+    <div class="kontak-box">
+      <img src="image/wa.jpg" alt="WhatsApp" />
+      <a href="https://wa.me/${kontak.wa1.replace(/\D/g, "")}">${kontak.wa1}</a>
+    </div>
+    <div class="kontak-box">
+      <img src="image/wa.jpg" alt="WhatsApp" />
+      <a href="https://wa.me/${kontak.wa2.replace(/\D/g, "")}">${kontak.wa2}</a>
+    </div>
+    <div class="kontak-box">
+      <img src="image/web.svg" alt="Website" />
+      <a href="https://${kontak.site}" target="_blank">${kontak.site}</a>
+    </div>
+  </div>
+</div>
+
   `;
 }
