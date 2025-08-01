@@ -1,0 +1,259 @@
+{
+  "id": {
+    "nav": {
+      "tentang": "Tentang",
+      "produk": "Produk",
+      "proses": "Proses & Kualitas",
+      "order": "Pemesanan",
+      "faq": "Tanya Jawab",
+      "kontak": "Kontak"
+    },
+    "hero": {
+      "title": "Rempah Indonesia Untuk Dunia",
+      "desc": "Ekspor rempah alami berkualitas tinggi dari Nusantara ke pasar global. Langsung dari petani Indonesia, dengan standar ekspor internasional.",
+      "cta1": "Minta Penawaran",
+      "cta2": "Lihat Produk"
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "desc": "Kami adalah eksportir terpercaya yang berfokus pada rimpang dan rempah Indonesia (Jahe, Kunyit, Lengkuas, Cengkeh, Kapulaga, Kemiri) dengan standar mutu ketat, transparansi supply-chain, dan fleksibilitas pemenuhan kebutuhan buyer di berbagai negara.",
+      "years": "Tahun Berpengalaman",
+      "countries": "Negara Tujuan",
+      "tons": "Ton Ekspor / Tahun",
+      "farmers": "Mitra Petani",
+      "visi": "Visi",
+      "visi_desc": "Menjadi mitra ekspor rempah Nusantara yang paling dipercaya dan berkelanjutan di pasar global.",
+      "misi": "Misi",
+      "misi_list": [
+        "Mengoptimalkan kualitas melalui kontrol mutu berlapis",
+        "Mengutamakan transparansi harga & traceability produk",
+        "Memberdayakan petani lokal dengan pembinaan berkelanjutan",
+        "Melayani buyer dengan respon cepat & fleksibel"
+      ],
+      "why_title": "Kenapa Memilih Kami?",
+      "why": [
+        {
+          "title": "Kualitas Utama",
+          "desc": "Standar kadar air, warna, dan kebersihan yang konsisten di setiap batch."
+        },
+        {
+          "title": "Kemasan Fleksibel",
+          "desc": "Vacuum, aluminium foil, kantong kraft, kantong PP – sesuai kebutuhan pembeli."
+        },
+        {
+          "title": "Respon Cepat",
+          "desc": "Waktu proses dan pengiriman cepat, dilengkapi laporan QC lengkap."
+        },
+        {
+          "title": "Patuh Regulasi Global",
+          "desc": "Dokumen ekspor lengkap (COA, MSDS, Fitosanitari, HS Code, dll)."
+        }
+      ]
+    },
+    "produk": {
+      "title": "Produk Kami",
+      "desc": "Semua produk tersedia dalam bentuk segar / kering / bubuk (custom), dengan opsi kemasan dan spesifikasi sesuai kebutuhan industri Anda."
+    },
+    "proses": {
+      "title": "Proses & Kualitas",
+      "desc": "Kami menerapkan 4 lapis kontrol kualitas dari hulu ke hilir dengan laporan transparan untuk setiap batch.",
+      "steps": [
+        {
+          "title": "Pengadaan & Pra-Sortir",
+          "desc": "Dipanen langsung dari petani mitra bersertifikasi, kemudian dilakukan pra-sortir di lapangan."
+        },
+        {
+          "title": "Pembersihan & Pengeringan",
+          "desc": "Pembersihan dengan teknologi modern dan pengeringan sesuai standar kadar air yang disepakati."
+        },
+        {
+          "title": "Uji Lab & Laporan QC",
+          "desc": "Pengujian kadar air, warna, aroma, dan kandungan minyak atsiri (jika diperlukan COA)."
+        },
+        {
+          "title": "Pengemasan & Dokumen Ekspor",
+          "desc": "Pengemasan vacuum atau curah, dilengkapi dengan dokumen ekspor seperti Fitosanitari, HS Code, COA, dan lainnya."
+        }
+      ],
+      "mutu": "Standar Mutu (Target)",
+      "mutu_items": [
+        { "label": "Kadar Air (Moisture)", "value": "12%" },
+        { "label": "Kebersihan (Cleanliness)", "value": "98%" },
+        { "label": "Oil Content (Cengkeh)", "value": "15%+" },
+        { "label": "Broken Ratio (Kemiri Kupas)", "value": "5%" }
+      ]
+    },
+    "order": {
+      "title": "Pemesanan Ekspor",
+      "desc": "Isi form berikut untuk mendapatkan quotation (proforma invoice) dari kami. Tim kami akan menghubungi Anda dalam <24 jam kerja.",
+      "name": "Nama Anda",
+      "email": "Email Anda",
+      "message": "Pesan Anda",
+      "success": "Pesan Anda berhasil dikirim. Terima kasih!",
+      "submit": "Kirim Permintaan Penawaran",
+      "note": "* Dengan mengirim form ini, Anda menyetujui kami untuk menghubungi via email/WhatsApp."
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "Berapa MOQ (Minimum Order Quantity)?",
+          "a": "MOQ berbeda tiap produk, umumnya 1 ton per item. Namun kami fleksibel untuk sample atau trial order."
+        },
+        {
+          "q": "Apakah bisa minta COA / Phytosanitary?",
+          "a": "Bisa. Kami menyediakan COA (Certificate of Analysis) & Phytosanitary sesuai kebutuhan buyer/negara tujuan."
+        },
+        {
+          "q": "Metode pembayaran apa yang diterima?",
+          "a": "TT, LC, atau metode lain yang disepakati. Detail akan dibahas di tahap negosiasi."
+        },
+        {
+          "q": "Lead time produksi & pengiriman?",
+          "a": "Rata-rata 2–4 minggu tergantung volume, spesifikasi, dan dokumen ekspor yang diminta."
+        }
+      ]
+    },
+    "kontak": {
+      "title": "Kontak Kami",
+      "name": "CV SEKAWAN CIPTA DINAR",
+      "address": "Jl. Raya Waru No.17, Kedungrejo, Kec. Waru, Kabupaten Sidoarjo, Jawa Timur 61256",
+      "email": "info@dummy.com",
+      "contact": "Contact Person: Asih Prihastutik",
+      "wa1": "+62 852-3001-7377",
+      "wa2": "+62 831-3616-8789",
+      "site": "www.dummy.com"
+    },
+    "footer": "&copy; 2025 Rimpang Nusantara Indonesia. All rights reserved.",
+    "toast": "Terima kasih! Permintaan Anda sudah kami terima."
+  },
+
+  "en": {
+    "nav": {
+      "tentang": "About",
+      "produk": "Products",
+      "proses": "Process & Quality",
+      "order": "Order",
+      "faq": "FAQ",
+      "kontak": "Contact"
+    },
+    "hero": {
+      "title": "Indonesian Spices for the World",
+      "desc": "High-quality natural spice exports from the archipelago to the global market. Directly from Indonesian farmers, with international export standards.",
+      "cta1": "Request a Quote",
+      "cta2": "See Products"
+    },
+    "about": {
+      "title": "About Us",
+      "desc": "We are a trusted exporter focused on Indonesian rhizomes and spices (Ginger, Turmeric, Galangal, Clove, Cardamom, Candlenut) with strict quality standards, supply-chain transparency, and flexibility to meet buyers’ needs across various countries.",
+      "years": "Years of Experience",
+      "countries": "Export Countries",
+      "tons": "Tons / Year",
+      "farmers": "Farmer Partners",
+      "visi": "Vision",
+      "visi_desc": "To be the most trusted and sustainable Indonesian spice export partner in the global market.",
+      "misi": "Mission",
+      "misi_list": [
+        "Optimizing quality through layered quality control",
+        "Prioritizing price transparency & product traceability",
+        "Empowering farmers with sustainable support",
+        "Serving buyers with fast & flexible response"
+      ],
+      "why_title": "Why Choose Us?",
+      "why": [
+        {
+          "title": "Top Quality",
+          "desc": "Moisture, color, and cleanliness consistently met for every batch."
+        },
+        {
+          "title": "Flexible Packaging",
+          "desc": "Vacuum, aluminum foil, kraft, PP bags – as per buyer needs."
+        },
+        {
+          "title": "Fast Response",
+          "desc": "Quick processing and delivery, complete with QC report."
+        },
+        {
+          "title": "Global Standard Compliance",
+          "desc": "Export documents available (COA, MSDS, Phytosanitary, HS Code, etc)."
+        }
+      ]
+    },
+    "produk": {
+      "title": "Our Products",
+      "desc": "All products are available fresh / dried / powdered (custom), with packaging and specifications tailored to your industry needs."
+    },
+    "proses": {
+      "title": "Process & Quality",
+      "desc": "We apply 4-layer quality control from upstream to downstream, with transparent reporting for every batch.",
+      "steps": [
+        {
+          "title": "Procurement & Pre-Sorting",
+          "desc": "Harvested directly from certified partner farmers, followed by on-site pre-sorting."
+        },
+        {
+          "title": "Cleaning & Drying",
+          "desc": "Cleaned using modern tech, dried to meet agreed moisture standards."
+        },
+        {
+          "title": "Lab Test & QC Report",
+          "desc": "Moisture, color, aroma, and essential oil content analysis (COA if required)."
+        },
+        {
+          "title": "Packaging & Export Docs",
+          "desc": "Vacuum or bulk packing, with supporting docs like Phytosanitary, HS Code, COA, etc."
+        }
+      ],
+      "mutu": "Quality Standards (Target)",
+      "mutu_items": [
+        { "label": "Moisture", "value": "12" },
+        { "label": "Cleanliness", "value": "98" },
+        { "label": "Oil Content (Clove)", "value": "15" },
+        { "label": "Broken Ratio (Peeled Candlenut)", "value": "5" }
+      ]
+    },
+    "order": {
+      "title": "Export Order",
+      "desc": "Fill out the form to receive a quotation (proforma invoice) from us. Our team will contact you within <24 working hours.",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "success": "Your message has been sent. Thank you!",
+      "submit": "Send Request",
+      "note": "* By submitting this form, you allow us to contact you via email/WhatsApp."
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "What’s the MOQ (Minimum Order Quantity)?",
+          "a": "Varies per product, typically 1 ton per item. We’re flexible for samples or trial orders."
+        },
+        {
+          "q": "Can I request COA / Phytosanitary?",
+          "a": "Yes. We provide COA (Certificate of Analysis) & Phytosanitary as needed per buyer/destination."
+        },
+        {
+          "q": "What payment methods do you accept?",
+          "a": "TT, LC, or any method agreed upon. Details discussed during negotiation."
+        },
+        {
+          "q": "Production & delivery lead time?",
+          "a": "Average 2–4 weeks depending on volume, specifications, and export documents required."
+        }
+      ]
+    },
+    "kontak": {
+      "title": "Contact Us",
+      "name": "CV SEKAWAN CIPTA DINAR",
+      "address": "Jl. Raya Waru No.17, Kedungrejo, Kec. Waru, Kabupaten Sidoarjo, East Java 61256",
+      "email": "info@dummy.com",
+      "contact": "Contact Person: Asih Prihastutik",
+      "wa1": "+62 852-3001-7377",
+      "wa2": "+62 831-3616-8789",
+      "site": "www.dummy.com"
+    },
+    "footer": "&copy; 2025 Rimpang Nusantara Indonesia. All rights reserved.",
+    "toast": "Thank you! Your request has been received."
+  }
+}

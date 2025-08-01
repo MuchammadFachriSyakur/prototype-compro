@@ -1,0 +1,98 @@
+[
+  {
+    "id": "lengkuas",
+    "image": "https://www.masjidalakbar.or.id/wp-content/uploads/2024/09/lengkuas.jpg",
+    "name": {
+      "id": "Lengkuas",
+      "en": "Galangal"
+    },
+    "desc": {
+      "id": "Segar & kering, kandungan minyak atsiri tinggi, cocok untuk makanan & herbal.",
+      "en": "Fresh & dried, high essential oil content, suitable for food and herbal use."
+    }
+  },
+  {
+    "id": "jahe",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdeZkTsqZSHTeWKKaAK6m_FPZbVEATCWndAQ&s",
+    "name": {
+      "id": "Jahe (Merah & Gajah)",
+      "en": "Ginger (Red & Elephant)"
+    },
+    "desc": {
+      "id": "Segar, iris kering, bubuk. Kadar air terkontrol, warna seragam, aroma kuat.",
+      "en": "Fresh, dried slices, powder. Moisture controlled, uniform color, strong aroma."
+    }
+  },
+  {
+    "id": "kunyit",
+    "image": "https://www.masjidalakbar.or.id/wp-content/uploads/2024/09/kunyit.jpg",
+    "name": {
+      "id": "Kunyit",
+      "en": "Turmeric"
+    },
+    "desc": {
+      "id": "Farmasi, makanan, kosmetik. Kuning pekat, kurkumin sesuai standar buyer.",
+      "en": "For pharmaceuticals, food, and cosmetics. Deep yellow, curcumin meets buyer standard."
+    }
+  },
+  {
+    "id": "cengkeh",
+    "image": "https://i0.wp.com/ciputrahospital.com/wp-content/uploads/2024/11/top-view-dried-cloves-with-wooden-spoon-1.jpg?resize=1024%2C683&ssl=1",
+    "name": {
+      "id": "Cengkeh",
+      "en": "Clove"
+    },
+    "desc": {
+      "id": "Kadar minyak >15% (opsional), ukuran seragam, kering & bersih.",
+      "en": "Oil content >15% (optional), uniform size, dry and clean."
+    }
+  },
+  {
+    "id": "kapulaga",
+    "image": "https://indomgb.s3.amazonaws.com/wp-content/uploads/2025/05/21232031/kapulaga-jawa-768x512.jpeg",
+    "name": {
+      "id": "Kapulaga",
+      "en": "Cardamom"
+    },
+    "desc": {
+      "id": "Hijau & Putih, aroma tajam, kadar kotoran rendah, siap ekspor.",
+      "en": "Green & white, strong aroma, low impurity level, export-ready."
+    }
+  },
+  {
+    "id": "kemiri",
+    "image": "https://res.cloudinary.com/dk0z4ums3/image/upload/v1671590469/attached_image/kemiri-ketahui-kandungan-dan-manfaatnya-untuk-kesehatan.jpg",
+    "name": {
+      "id": "Kemiri Kupas",
+      "en": "Shelled Candlenut"
+    },
+    "desc": {
+      "id": "Utuh / pecah, food-grade, kadar minyak dan air sesuai spesifikasi.",
+      "en": "Whole / broken, food-grade, oil and moisture levels per specification."
+    }
+  },
+  {
+    "id": "kopra",
+    "image": "https://kalesang.id/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-01-at-18.49.57.jpeg",
+    "name": {
+      "id": "Kopra",
+      "en": "Copra"
+    },
+    "desc": {
+      "id": "Kopra Kering Kualitas Ekspor. Diproses dari kelapa pilihan Indonesia, menghasilkan kopra putih bersih dengan kadar air rendah.",
+      "en": "Export-grade dried copra. Made from selected Indonesian coconuts, producing clean white copra with low moisture."
+    }
+  },
+  {
+    "id": "brambang",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxVIb8FGNSy2IC8GRwV1wpE-M7LojuYveLPw&s",
+    "name": {
+      "id": "Brambang",
+      "en": "Shallot"
+    },
+    "desc": {
+      "id": "Bawang Segar Premium Indonesia. Dipanen dari lahan subur, bawang kami memiliki aroma kuat dan rasa khas.",
+      "en": "Premium Indonesian fresh shallots. Harvested from fertile land, our shallots have strong aroma and distinct flavor."
+    }
+  }
+]
