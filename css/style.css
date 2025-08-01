@@ -420,8 +420,9 @@ section h2::after {
   background: #fff;
 }
 .faq-item.active .faq-a {
-  max-height: 180px;
+  max-height: none;
   padding: 16px 18px;
+  transition: none;
 }
 /* ===== CONTACT ===== */
 #kontak a {
@@ -463,8 +464,23 @@ footer {
   .form {
     grid-template-columns: 1fr;
   }
+  nav.open .menu {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    padding: 12px 18px;
+    gap: 8px;
+  }
+  nav.open .menu a {
+    color: #333 !important;
+  }
 }
-/* simple hamburger for mobile (optional) */
+/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -483,20 +499,5 @@ nav.scrolled .hamburger span {
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
-  }
-  nav.open .menu {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 64px;
-    right: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: var(--shadow);
-    padding: 12px 18px;
-    gap: 8px;
-  }
-  nav.open .menu a {
-    color: #333 !important;
   }
 }
