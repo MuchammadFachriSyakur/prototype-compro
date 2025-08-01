@@ -425,12 +425,69 @@ section h2::after {
   transition: none;
 }
 /* ===== CONTACT ===== */
-#kontak a {
+.kontak-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.kontak-intro {
+  flex: 1 1 300px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow);
+}
+
+.kontak-intro h3 {
+  font-size: 22px;
   color: var(--green);
+  margin-bottom: 10px;
 }
-#kontak a:hover {
-  color: var(--accent);
+
+.kontak-intro p,
+.kontak-intro a {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 15px;
 }
+
+.kontak-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1 1 220px;
+}
+
+.kontak-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.kontak-box:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.kontak-box img {
+  width: 24px;
+  height: 24px;
+}
+
+.kontak-box a {
+  text-decoration: none;
+  color: var(--green);
+  font-weight: 500;
+}
+
 /* ===== FOOTER ===== */
 footer {
   background: var(--green);
